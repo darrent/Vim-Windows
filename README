@@ -1,5 +1,4 @@
-rm _vimrc
-rm _gvimrc
+del _vimrc
 rmdir /s vimfiles
 
 mklink _vimrc Vim-Windows\_vimrc
