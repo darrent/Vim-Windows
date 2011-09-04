@@ -1,0 +1,7 @@
+rm _vimrc
+rm _gvimrc
+rmdir /s vimfiles
+
+mklink _vimrc Vim-Windows\_vimrc
+mklink _gvimrc Vim-Windows\_gvimrc
+mklink /D vimfiles Vim-Windows\vimfiles
